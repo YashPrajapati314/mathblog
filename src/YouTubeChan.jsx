@@ -8,7 +8,7 @@ function YouTubeChan() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get('http://localhost:5000/api/youtubechannels');
+        const response = await axios.get('https://mathblog.onrender.com/api/youtubechannels');
         console.log(response.data);
         setChannels(response.data);
       } catch (error) {
