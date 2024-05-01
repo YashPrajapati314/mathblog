@@ -1,0 +1,303 @@
+.atitle {
+  margin: auto;
+  color: white;
+  font-size: 60px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./assets/gear3.jpg!w700wp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.navigation {
+  justify-content: center;
+  background-image: radial-gradient(at 80% 20% , rgb(38, 157, 255), rgb(38, 222, 255));
+  height: 50px;
+}
+
+.navtext {
+  font-family: Arial, Helvetica, sans-serifS;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.navtext:hover {
+  font-family: Arial, Helvetica, sans-serifS;
+  color: rgb(41, 98, 255);
+  font-size: 20px;
+}
+
+/* .introleft {
+  transition: all 0.8s ease;
+}
+
+.introleft:hover {
+  background-image: url('./assets/mathminwallpaperedited.png');
+} */
+
+.introright {
+  transition: all 0.5s ease;
+}
+
+.introright:hover {
+  background-image: url('./assets/fibblue.png');
+}
+
+.home, .blog, .about, .contact {
+  text-align: center;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.introleft {
+  height: 600px;
+  flex: 0 0 65%;
+  background-image: url("./assets/mathminwallpaper.png");
+  background-size: cover;
+  border: 1px solid white;
+  position: relative;
+}
+
+.introlefttext {
+  text-align: justify;
+  margin: 10px ;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.introleftbutton {
+  margin: 10px ;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 45px;
+  left: 50px;
+}
+
+#learnmore {
+  background-color: rgba(211, 255, 240, 0.2);
+  color: white;
+  border: 2px solid white;
+  font-size: 30px;
+  border-radius: 40px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: all 0.3s ease;
+}
+
+#learnmore:hover {
+  background-color: rgba(211, 255, 240, 0.8);
+  color: rgb(0, 107, 71);
+  border: 2px solid white;
+  font-size: 30px;
+  border-radius: 40px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.introlefttextpara {
+  font-size: 25px;
+  color: rgb(211, 255, 240);
+}
+
+.introtitle {
+  font-size: 40px;
+}
+
+.introright {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 600px;
+  flex: 0 0 35%;
+  background-image: url("./assets/fib.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+  display: flex;
+}
+
+.introrighttext {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introrighttextpara {
+  font-size: 32px;
+  font-family: 'Monotype Corsiva';
+}
+
+p {
+  font-size: 20px;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  max-width: 225px;
+  height: 400px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  vertical-align: top;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  background-color: rgba(227, 250, 252, 0.8);
+  color: rgb(0, 40, 44);
+  cursor: pointer;
+}
+
+.card .cardimg {
+  height: 150px;
+}
+
+.card .thumbsup {
+  height: 20px;
+}
+
+.card .slightlyLarger {
+  height: 23px;
+}
+
+.card .likeSection {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.youtubelinks, .webpagelinks {
+  color: black;
+}
+
+.blogdiv {
+  display: inline-flex;
+}
+
+.blogpagetitle {
+  text-align: center;
+  color: rgb(146, 62, 255);
+}
+
+
+.card2 {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  vertical-align: top;
+  transition: transform 0.3s ease;
+}
+
+.card2:hover {
+  transform: scale(1.08);
+  background-color: rgba(252, 227, 252, 0.8);
+  color: rgb(41, 0, 41);
+  cursor: pointer;
+}
+
+.card2 .card2img {
+  height: 150px;
+}
+
+.content {
+  display: flex;
+}
+
+.leftsection {
+  flex: 0 0 65%;
+}
+
+.rightsection {
+  flex: 0 0 35%;
+}
+
+.BlogCard {
+  /* color: white; */
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  height: 400px;
+  width: 225px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  vertical-align: top;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.BlogCard:hover {
+  transform: scale(1.08);
+  background-color: rgba(227, 250, 252, 0.8);
+  color: rgb(0, 40, 44);
+  cursor: pointer;
+}
+
+.BlogCardtitle, .noOfloves{
+  color: white;
+}
+
+.loves {
+  font-size: 19px;
+}
+
+/* .BlogCard .BlogCardimg {
+  height: 150px;
+} */
+
+.BlogCard .heart {
+  height: 20px;
+}
+
+.BlogCard .slightlySmaller {
+  height: 17px;
+}
+
+.BlogCard .loveSection {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
